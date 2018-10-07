@@ -1,0 +1,161 @@
+  
+
+
+ul.g_meny{
+    list-style-type: none;      /* убрать маркеры mаркированного спимка */
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    background: #0DE003;
+    position: absolute;
+    top: 260px;
+    left: 60px;
+    z-index: 4; 
+
+}
+ul.g_meny li{
+       float: left; /* обтекание слева, чтобы столбец превратить в строку */
+}
+ul.g_meny li a{
+    font-family:Arial;
+    font-size:14px;
+    color: #042174;
+    display: block;
+    border-left: 2px dotted white; 
+    text-align: center;
+    text-decoration: none; /* убрать подчеркование */
+    padding: 14px 16px;
+}
+ul.g_meny .active{
+    color: #FFFFFF;
+    background: #042174;
+}
+ul.g_meny li a:hover:not(.active){  /* :hover псевдокласс который определяет поведение ебьекта при указании, применяеться ко.   not не использовать к active */
+  background:#6F7A98;  
+}
+
+
+.sapka_image{
+    background-image:url(../imege/sapka.png);
+    width: 100%;
+    height: 327px;
+    background-size:100% 93%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1; 
+}
+
+.text_css{ /* текст в верхней шапке */
+    font-family:Arial;
+    font-size:130px;
+    text-transform:uppercase;
+    color: #FFFFFF;
+    text-shadow:-7px 0px 10px #306565;
+    text-decoration: none;
+    position: absolute;
+    top: -35px;
+    left: 60px;
+    z-index: 2;
+}
+.text_css_italika{ /* курсивный шрифт в верхней шапке */
+    font-family:Сonsols;
+    font-size:18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-align:center;
+    text-decoration: underline;
+    text-shadow:-7px 0px 10px #036969;
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    top: 67px;
+    left: 1070px;
+    z-index: 2;
+}
+.blok1{
+    font-family: Arial;
+    font-size:12px;
+    line-height: 18px;
+    width: 1200px;
+    height: 400px;
+    position: absolute;
+    top: 320px;
+    left: 70px;
+    z-index: 7;  
+   
+}
+
+
+
+.blok_a{
+    font-family: Arial;
+    font-size:12px;
+    line-height: 22px;
+    width: 70%;
+   /*  margin: 13px auto;
+   background-repeat: no-repeat;
+   background-position: left center;
+   padding-left: 200px; */
+    position: absolute;
+    top: 350px;
+    left: 63px;
+    z-index: 2;
+}
+
+
+.table_sapka{ /* Шапка таблицы */
+    font-family: Arial;
+    font-size:18px;
+    line-height: 22px;
+    padding: 15px;
+    background: #82B3B4;
+}
+
+.pm{
+    background: #AEDDDF;
+    border: 1px solid white;
+    font-family: courier new; /* шрифт печатной машинки */
+    padding: 15px;
+     }
+
+.pm_2{
+    background: #AEDDDF;
+    border: 1px solid white;
+    font-family: Arial; 
+    padding: 15px;
+     }
+
+.t2_a{
+    font-family: Arial;
+    font-size:24px;
+    line-height: 30px;
+    padding-left: 50px;
+    border: 4px dotted grey;
+    position: absolute;
+    top: 450px;
+    left: 350px;
+    z-index: 2; 
+}
+
+
+.td_1{    /* Создает перечеркнутый текст */
+    font-weight: bolder;
+    font-size:30px;
+    text-decoration: line-through;
+}
+
+
+.td_2{    /* Линия проходит над текстом */
+    font-weight: bolder;
+    font-size:30px;
+    text-decoration: overline;
+}
+
+.td_3{    /* Устанавливает подчеркнутый текст */
+    font-weight: bolder;
+    font-size:30px;
+    text-decoration: underline;
+}
